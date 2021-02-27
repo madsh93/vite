@@ -3307,6 +3307,11 @@ de-indent@^1.0.2:
   resolved "https://registry.yarnpkg.com/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
   integrity sha1-sgOOhG3DO6pXlhKNCAS0VbjB4h0=
 
+debounce@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/debounce/-/debounce-1.2.0.tgz#44a540abc0ea9943018dc0eaa95cce87f65cd131"
+  integrity sha512-mYtLl1xfZLi1m4RtQYlZgJUNQjl4ZxVnHzIR8nLLgi4q1YT8o/WM+MK/f8yfcc9s5Ir5zRaPZyZU6xs1Syoocg==
+
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -5527,13 +5532,16 @@ num2fraction@^1.2.2:
   resolved "https://registry.yarnpkg.com/num2fraction/-/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
   integrity sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
 
-nuxt-vite@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/nuxt-vite/-/nuxt-vite-0.0.8.tgz#e744e69006dc97e9302c4a9406e58c6ac32b81d7"
-  integrity sha512-zFL+s233xIuVagrpS0BJ6GP34JMb4rEfwOSEPTFWxwR0y809O9izwA/aQUP209zzAQhtRIimn0RkTPCDpw4FmA==
+nuxt-vite@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/nuxt-vite/-/nuxt-vite-0.0.9.tgz#524d3a947b12b99757858f4c590af3fd2b5dca36"
+  integrity sha512-Eudq/8zjqoNwlj1KHwWmVqma7c1qmurdiJ1/2HvcXjHu65VwF5MW0bekQ5S585uYbObGRqs0Z5ifkG05pPkaLQ==
   dependencies:
     chokidar "^3.5.1"
+    debounce "^1.2.0"
     fs-extra "^9.1.0"
+    semver "^7.3.4"
+    ufo "^0.6.7"
     upath "^2.0.1"
     vite "^2.0.3"
     vite-plugin-vue2 "^1.2.1"
